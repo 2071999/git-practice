@@ -1,0 +1,14 @@
+/* Employee Form Styles */
+.container {
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
