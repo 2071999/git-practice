@@ -11,6 +11,11 @@ namespace WebApplication1.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
+
+
+        //made new branch feature -3 and doing The changes in That now i will switch to dev branch 
+        // made changes from dev
+        // now stash those chnages in here and swich to The dev branch so this line won't there so 
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)

@@ -6,7 +6,9 @@ namespace WebApplication1
 
         public int TemperatureC { get; set; }
 
-        //chnages in The dev2 now take pull    from the dev1 and then merge to the main branch
+
+        //chnages in The dev2 now take pull    from the dev1 and then merge to the main bran
+
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
