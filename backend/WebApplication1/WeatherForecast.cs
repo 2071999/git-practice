@@ -6,11 +6,11 @@ namespace WebApplication1
 
         public int TemperatureC { get; set; }
 
-        //chnages in The dev2 now take pull    from the dev1 and then merge to the main branch
+ // this is feature branch - 5 so i am chnaging from The dev1
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
 
-        // dev branch chnages in The dev1 folder for the merge conflict 
+       
     }
 }
