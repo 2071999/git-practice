@@ -9,5 +9,7 @@ namespace WebApplication1
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
+
+        // dev branch chnages in The dev1 folder for the merge conflict 
     }
 }
